@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/ab">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="LOGIN PAGE"
+        android:textSize="30dp"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textAllCaps="true"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/splist"
+        android:background="@drawable/rectangle"
+        android:layout_marginBottom="10dp"
+         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UserName"
+        android:gravity="center"
+        android:id="@+id/name"
+        android:background="@drawable/rectangle"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PassWord"
+        android:gravity="center"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="10dp"
+        android:id="@+id/pass"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="@drawable/rect1"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:id="@+id/login"
+        />
+</LinearLayout>

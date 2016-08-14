@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfad.androidclasss2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".com.activity.Load">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".com.activity.MainActivity" />
+        <activity android:name=".com.activity.Teacher_Activity" />
+        <activity android:name=".com.activity.Student_Activity" />
+        <activity android:name=".com.activity.admin_activity" />
+        >
+        <activity android:name=".com.activity.addstu" />
+        <activity android:name=".com.activity.teaadd" />
+        <activity android:name=".com.activity.course_activity"></activity>
+    </application>
+
+</manifest>
