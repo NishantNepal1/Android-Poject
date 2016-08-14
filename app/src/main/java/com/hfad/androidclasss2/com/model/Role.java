@@ -1,5 +1,8 @@
 package com.hfad.androidclasss2.com.model;
 
+/**
+ * This class is for Login
+ */
 public class Role {
     public Role(String text11) {
         this.text11 = text11;
